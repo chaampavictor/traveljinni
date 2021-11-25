@@ -49,14 +49,14 @@ export default function Home() {
                                 <p className="px-2">|</p>
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
-                                    class="h-6 w-6"
+                                    className="h-6 w-6"
                                     fill="none"
                                     viewBox="0 0 24 24"
                                     stroke="currentColor">
                                     <path
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        stroke-width="2"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        strokeWidth="2"
                                         d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
                                     />
                                 </svg>
@@ -93,7 +93,11 @@ export default function Home() {
                         <div>
                             <div className="flex pl-40 pt-16">
                                 <div className="rounded-full w-20 h-20 p-2 flex items-center justify-center bg-white">
-                                    <img src="/logo.png" className="w-18 h-18 rounded-full" />
+                                    <img
+                                        src="/logo.png"
+                                        alt=""
+                                        className="w-18 h-18 rounded-full"
+                                    />
                                 </div>
                                 <div className="ml-4 text-center border border-white">
                                     <h1 className="head-t font-bold font-mono tracking-wide px-3">
@@ -129,7 +133,9 @@ export default function Home() {
                         <link rel="icon" href="/favicon.ico" />
                     </Head>
 
-                    <main role="main" class="w-full flex flex-col  content-center justify-center">
+                    <main
+                        role="main"
+                        className="w-full flex flex-col  content-center justify-center">
                         {/* <div class="w-full sm:w-1/2 lg:w-1/3 bg-gray-50 rounded-xl "></div> */}
                         <p
                             className="text-sm "
@@ -175,14 +181,14 @@ export default function Home() {
                                     <p className="px-2">|</p>
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
-                                        class="h-4 w-4"
+                                        className="h-4 w-4"
                                         fill="none"
                                         viewBox="0 0 24 24"
                                         stroke="currentColor">
                                         <path
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                            stroke-width="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            strokeWidth="2"
                                             d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
                                         />
                                     </svg>
@@ -239,7 +245,11 @@ export default function Home() {
                             <div>
                                 <div className="flex ">
                                     <div className="rounded-full w-15 h-35 p-2 flex items-center justify-center bg-white">
-                                        <img src="/logo.png" className="w-10 h-10 rounded-full" />
+                                        <img
+                                            src="/logo.png"
+                                            alt=""
+                                            className="w-10 h-10 rounded-full"
+                                        />
                                     </div>
                                     <div className="ml-4 text-center border border-white">
                                         <h1

@@ -27,3 +27,14 @@
     padding-top: 0;
     margin-top: 0;
 }
+.remaining_days {
+    flex: 'none';
+    margin-top: '8px';
+    font-size: '9px';
+    margin-bottom: '-9px';
+    margin-left: '5px';
+}
+.day_dubai {
+    display: flex;
+    margin-top: 62px;
+}

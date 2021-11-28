@@ -137,19 +137,9 @@ export default function Home() {
                         role="main"
                         className="w-full flex flex-col  content-center justify-center">
                         {/* <div class="w-full sm:w-1/2 lg:w-1/3 bg-gray-50 rounded-xl "></div> */}
-                        <p
-                            className="text-sm "
-                            style={{
-                                flex: 'none',
-                                marginTop: '8px',
-                                fontSize: '9px',
-                                marginBottom: '-9px',
-                                marginLeft: '5px'
-                            }}>
-                            Remaining Days to my Trip
-                        </p>
+                        <p className={styles.remaining_days}>Remaining Days to my Trip</p>
 
-                        <div className="flex" style={{ marginTop: '6px' }}>
+                        <div className="flex">
                             <div className="flex">
                                 <div className="flex-col text-center mx-1 w-6">
                                     <h2 className={styles.pFlexT}>10</h2>
@@ -173,9 +163,7 @@ export default function Home() {
                                 </div>
                             </div>
 
-                            <div
-                                className="flex text-sm py-5"
-                                style={{ marginTop: '-4px', marginLeft: ' 72px', fontSize: '9px' }}>
+                            <div className="flex text-xs mt-4 ml-10">
                                 <p className="px-2">My Trips</p>
                                 <div className="flex">
                                     <p className="px-2">|</p>
@@ -197,47 +185,31 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="border-t border-gray-500"></div>
-                        <div className="flex " style={{ marginTop: '62px' }}>
+                        <div className={styles.day_dubai}>
                             <div className="w-60">
-                                <h1
-                                    className="font-bold font-serif py-1"
-                                    style={{ fontSize: '8px', marginTop: '-92%' }}>
+                                <h1 className="font-bold  text-base font-serif py-1 mt-22">
                                     Six Days In Dubai
                                 </h1>
                                 <ul>
-                                    <li
-                                        className="w-8 h-8 flex items-center justify-center"
-                                        style={{ fontSize: '8px' }}>
+                                    <li className="w-8 h-8 flex text-base items-center justify-center">
                                         FEB
                                     </li>
-                                    <li
-                                        style={{ fontSize: '8px' }}
-                                        className="bg-opacity-50 bg-black text-yellow-300 w-8 h-8 rounded-full flex items-center justify-center border-yellow-300 border-2 text-sm font-bold font-mono">
+                                    <li className="bg-opacity-50 bg-black text-base text-yellow-300 w-8 h-8 rounded-full flex items-center justify-center border-yellow-300 border-2 text-sm font-bold font-mono">
                                         15
                                     </li>
-                                    <li
-                                        style={{ fontSize: '8px' }}
-                                        className="w-8 h-10 flex items-center justify-center text-xs">
+                                    <li className="w-8 h-10 flex items-center text-base justify-center text-xs">
                                         16
                                     </li>
-                                    <li
-                                        style={{ fontSize: '8px' }}
-                                        className="w-8 h-10 flex items-center justify-center text-xs">
+                                    <li className="w-8 h-10 flex items-center text-base justify-center text-xs">
                                         17
                                     </li>
-                                    <li
-                                        style={{ fontSize: '8px' }}
-                                        className="w-8 h-10 flex items-center justify-center text-xs">
+                                    <li className="w-8 h-10 flex items-center text-base justify-center text-xs">
                                         18
                                     </li>
-                                    <li
-                                        style={{ fontSize: '8px' }}
-                                        className="w-8 h-10 flex items-center justify-center text-xs">
+                                    <li className="w-8 h-10 flex items-center text-base justify-center text-xs">
                                         19
                                     </li>
-                                    <li
-                                        style={{ fontSize: '8px' }}
-                                        className="w-8 h-10 flex items-center justify-center text-xs">
+                                    <li className="w-8 h-10 flex items-center text-base justify-center text-xs">
                                         20
                                     </li>
                                 </ul>
@@ -252,14 +224,10 @@ export default function Home() {
                                         />
                                     </div>
                                     <div className="ml-4 text-center border border-white">
-                                        <h1
-                                            className="head-t font-bold font-mono tracking-wide px-3"
-                                            style={{ fontSize: '15px', height: '36px' }}>
+                                        <h1 className=" font-bold font-mono tracking-wide px-3 text-base h-8">
                                             HILTON HOTEL
                                         </h1>
-                                        <h2
-                                            className="bg-white text-black text-l pb-1"
-                                            style={{ fontSize: '12px' }}>
+                                        <h2 className="bg-white text-black text-l pb-1 text-sm">
                                             POWERED BY TRAVEL JINNI
                                         </h2>
                                     </div>
